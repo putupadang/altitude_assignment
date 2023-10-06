@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Popular Anime in 2019",
+    "description": "Popular Anime in 2019 Description",
+    "subscriptionStatus": true
+  },
+  {
+    "id": 2,
+    "name": "Manchaster United vs Liverpool",
+    "description": "Manchaster United vs Liverpool Description",
+    "subscriptionStatus": false
+  },
+  {
+    "id": 3,
+    "name": "React Native",
+    "description": "React Native Description",
+    "subscriptionStatus": false
+  },
+  {
+    "id": 4,
+    "name": "Next js",
+    "description": "Next js Description",
+    "subscriptionStatus": false
+  },
+  {
+    "id": 5,
+    "name": "Vue js",
+    "description": "Vue js Description",
+    "subscriptionStatus": false
+  },
+  {
+    "id": 6,
+    "name": "Angular js",
+    "description": "Angular js Description",
+    "subscriptionStatus": false
+  },
+  {
+    "id": 7,
+    "name": "Laravel",
+    "description": "Laravel Description",
+    "subscriptionStatus": false
+  },
+  {
+    "id": 8,
+    "name": "Django",
+    "description": "Django Description",
+    "subscriptionStatus": false
+  },
+  {
+    "id": 9,
+    "name": "Node js",
+    "description": "Node js Description",
+    "subscriptionStatus": false
+  },
+  {
+    "id": 10,
+    "name": "Express js",
+    "description": "Express js Description",
+    "subscriptionStatus": false
+  },
+  {
+    "id": 11,
+    "name": "MongoDB",
+    "description": "MongoDB Description",
+    "subscriptionStatus": false
+  },
+  {
+    "id": 12,
+    "name": "MySQL",
+    "description": "MySQL Description",
+    "subscriptionStatus": false
+  },
+  {
+    "id": 13,
+    "name": "PostgreSQL",
+    "description": "PostgreSQL Description",
+    "subscriptionStatus": false
+  },
+  {
+    "id": 14,
+    "name": "GraphQL",
+    "description": "GraphQL Description",
+    "subscriptionStatus": false
+  },
+  {
+    "id": 15,
+    "name": "Apollo",
+    "description": "Apollo Description",
+    "subscriptionStatus": false
+  },
+  {
+    "id": 16,
+    "name": "Redux",
+    "description": "Redux Description",
+    "subscriptionStatus": false
+  },
+  {
+    "id": 17,
+    "name": "Mobx",
+    "description": "Mobx Description",
+    "subscriptionStatus": false
+  },
+  {
+    "id": 18,
+    "name": "Vuex",
+    "description": "Vuex Description",
+    "subscriptionStatus": false
+  }
+]
