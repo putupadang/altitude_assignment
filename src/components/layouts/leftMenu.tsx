@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import React from "react";
+import { BiSolidHome, BiSolidNews } from "react-icons/bi";
 
 type LeftMenuProps = {
   children: React.ReactNode;
@@ -18,15 +19,32 @@ const LeftMenu = ({ children }: LeftMenuProps) => {
             aria-label="close sidebar"
             className="drawer-overlay"
           ></label>
-          <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+          <ul className="menu p-4 w-72 min-h-full bg-base-200 text-base-content">
             <label htmlFor="my-drawer-2">
-              <li>
-                <a onClick={() => route.push("/")}>Home</a>
+              <li
+                className={`rounded-md ${
+                  route.pathname === "/" && "bg-gray-700"
+                }`}
+              >
+                <div onClick={() => route.push("/")} className="w-full">
+                  <BiSolidHome size={18} />
+                  <p>Home</p>
+                </div>
               </li>
             </label>
             <label htmlFor="my-drawer-2">
-              <li>
-                <a onClick={() => route.push("/newsletter")}>Newsletters</a>
+              <li
+                className={`rounded-md ${
+                  route.pathname === "/newsletter" && "bg-gray-700"
+                }`}
+              >
+                <div
+                  onClick={() => route.push("/newsletter")}
+                  className="w-full"
+                >
+                  <BiSolidNews size={18} />
+                  <p>Newsletters</p>
+                </div>
               </li>
             </label>
           </ul>
