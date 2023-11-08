@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import newsletter from "../../json/newsletter.json";
 
+//test update
+
 const NewslettersTable = () => {
   const [data, setData] = useState(newsletter);
 
